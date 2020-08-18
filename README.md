@@ -1,5 +1,7 @@
 # FIFA Challenge - JavaScript-Foundations
 
+TEMP
+
 ## Advanced JavaScript
 
 ## Array Methods and Callbacks
