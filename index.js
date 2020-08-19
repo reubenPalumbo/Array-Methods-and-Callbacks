@@ -107,13 +107,13 @@ console.log(
 
 function getAverageGoals(data) {
   const temp = data.reduce(function (acc, item) {
-    return (
-      (acc + item["Away Team Goals"] + item["Home Team Goals"]) /
-      (data.length + 1)
-    );
+    return acc + item["Away Team Goals"] + item["Home Team Goals"];
   }, 0);
-  return temp;
+  const tempEnd = temp / (data.length + 1);
+  // console.log(temp);
+  return tempEnd;
 }
+
 console.log(getAverageGoals(fifaData));
 
 /// STRETCH 🥅 //
